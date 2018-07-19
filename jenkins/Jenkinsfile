@@ -5,6 +5,10 @@ pipeline {
          }
      }
 
+   environment {
+     PATH = '/Users/gskdevops/.fastlane/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin'
+   }
+
    stages {
       stage('display') {
       steps {
