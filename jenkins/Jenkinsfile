@@ -1,0 +1,17 @@
+pipeline {
+   agent {
+      node {
+        label 'mobile'
+         }
+     }
+
+   stages {
+      stage('display') {
+      steps {
+        sh 'env'
+
+     }
+  }
+  }
+
+}
